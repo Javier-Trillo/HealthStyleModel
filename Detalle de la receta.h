@@ -1,17 +1,19 @@
 /**
- * Project Untitled
+ * 
  */
 
+#pragma once
 
-#ifndef _DETALLE DE LA RECETA_H
-#define _DETALLE DE LA RECETA_H
-
-class Detalle de la receta {
-public: 
-    int Id;
-    int Quantity;
-    double SubTotal;
-    double UnitPrice;
+#include Receta.h
+using namespace System;
+ 
+namespace HealthStyleModel{
+    public ref class Detalle de la receta: public Receta {
+    public: 
+        property int Id;
+        property int Quantity;
+        property double SubTotal;
+        property double UnitPrice;
+    };
 };
 
-#endif //_DETALLE DE LA RECETA_H
