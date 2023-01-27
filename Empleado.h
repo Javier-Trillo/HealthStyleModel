@@ -10,14 +10,14 @@
 #include "Person.h"
 
 
-class Empleado: public Person, public Person {
+public ref class Empleado: public Person, public Person {
 public: 
-    String Username;
-    String Password;
-    char Gender;
-    String Birthday;
-    String Schedule;
-    int YearsOfWork;
+    property String^ Username;
+    property String^ Password;
+    property char Gender;
+    property String^ Birthday;
+    property String^ Schedule;
+    property int YearsOfWork;
 };
 
 #endif //_EMPLEADO_H
