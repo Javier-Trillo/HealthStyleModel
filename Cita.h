@@ -1,16 +1,16 @@
 /**
- * Project Untitled
+ * 
  */
 
+#pragma once
 
-#ifndef _CITA_H
-#define _CITA_H
-
-class Cita {
-public: 
-    String Date;
-    String Speciality;
-    String Reason;
+using namespace System;
+namespace HealthStyleModel{
+    public ref class Cita{
+    public: 
+        property string Date;
+        porperty string Speciality;
+        property string Reason;
+    };
 };
 
-#endif //_CITA_H
