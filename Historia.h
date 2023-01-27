@@ -1,12 +1,13 @@
-/**
- * Project Untitled
- */
+#pragma once
 
+using namespace System;
 
-#ifndef _HISTORIA_H
-#define _HISTORIA_H
-
-class Historia {
-};
-
-#endif //_HISTORIA_H
+namespace HealthStyleModel{
+    public ref class Historia {
+    public:
+        double Height;
+        double Weight;
+        string^ Enfermedades;
+        string^ Tratamientos;
+    };
+}
