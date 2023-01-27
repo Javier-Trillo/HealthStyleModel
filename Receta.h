@@ -1,19 +1,20 @@
 /**
  * Project Untitled
  */
-#ifndef _RECETA_H
-#define _RECETA_H
+#pragma once
 
 #include "Farmaceutico.h"
 using namespace system;
 
 namespace HealthyStyleModel{
-    class Receta: public Farmaceutico {
+    public ref class Receta {
     public: 
         String^ Date;
         String^ Description;
         double Total;
+        String^ PacientName;
+        String^ DoctorName;
     };
 }
 
-#endif //_RECETA_H
+
