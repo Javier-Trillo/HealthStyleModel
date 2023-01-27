@@ -7,7 +7,10 @@ namespace HealthStyleModel{
     public:
         double Height;
         double Weight;
+        char bloodtype;
+        string^ PreviousDiseases;
         string^ Enfermedades;
         string^ Tratamientos;
+        string^ currentDiseases;
     };
 }
