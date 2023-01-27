@@ -3,14 +3,12 @@
  */
 
 
-#ifndef _EMPLEADO_H
-#define _EMPLEADO_H
+#pragma once
 
 #include "Person.h"
-#include "Person.h"
 
 
-public ref class Empleado: public Person, public Person {
+public ref class Empleado: public Person{
 public: 
     property String^ Username;
     property String^ Password;
@@ -20,4 +18,4 @@ public:
     property int YearsOfWork;
 };
 
-#endif //_EMPLEADO_H
+
