@@ -9,7 +9,6 @@ namespace HealthyStyleModel{
 		    String^ Name;
 		    String^ Description;
 		    double Price;
-		    int Stock;
-		    array<Byte> Photo;			
+		    int Stock;			
 	};
 }
