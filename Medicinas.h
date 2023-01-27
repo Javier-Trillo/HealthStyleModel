@@ -1,19 +1,15 @@
-/**
- * Project Untitled
- */
+#pragma once
 
+using namespace system;
 
-#ifndef _MEDICINAS_H
-#define _MEDICINAS_H
-
-class Medicinas {
-public: 
-    int Id;
-    String Name;
-    String Description;
-    double Price;
-    int Stock;
-    array<Byte> Photo;
-};
-
-#endif //_MEDICINAS_H
+namespace HealthyStyleModel{
+	public ref class medicinas {
+		public:
+		    int Id;
+		    String^ Name;
+		    String^ Description;
+		    double Price;
+		    int Stock;
+		    array<Byte> Photo;			
+	};
+}
